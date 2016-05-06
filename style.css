@@ -1,0 +1,163 @@
+* { margin: 0; padding: 0; outline: 0; border: 0; }
+
+/* HTML5 tags */
+header, section, footer,
+aside, nav, article, figure {
+	display: block;
+}
+
+/* basic css */
+
+body { 
+	background-color: #fff; 
+  font-family: 'Lato';
+  color: #fff;
+}
+
+p { 
+	font-family: 'Lato', sans serif;
+	font-weight: 300;
+	color: #000000; 
+	font-size: 16px; 
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+h2 {
+  color: #777;
+  font-family: 'Lato';
+  font-size: 22px;
+}
+
+.current {
+  text-decoration: underline;
+  color: #9EcDDF;
+}
+
+header {
+  text-align: center;
+  background-color: #f6f6f6;
+  background-size: cover;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.header-img {
+  padding: 20px 0;
+}
+
+ul {
+  padding: 10px;
+  background: #5DACCA;
+    }
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  list-style: none;
+    }
+
+.nav {
+  font-family: 'Lato';
+  font-weight: 300;
+}
+
+.nav li a {
+  color: #ffffff;
+}
+
+.intro {
+  padding-bottom: 20px;
+}
+
+/*Contact Form*/
+#payment_form {
+	width: 400px;
+  background-color: #f6f6f6;
+	margin: 0px auto;
+  padding: 40px 40px 35px 40px;
+  border-radius: 0 0 3px 3px;
+	-moz-border-radius: 0 0 5px 5px;
+}
+
+input[type="text"] ,select{
+	display: inline;
+	width: 400px;
+	font-size: 14px;
+	background-color:#ffffff;
+	border: 1px solid #94c1e8;
+	font-family: 'Lato';
+	color: #000000;
+	padding: 5px 0px 5px 10px;
+	margin: 5px 0px 5px 0px;
+	border-color: #94c1e8;
+/* 	border-radius: 3px;
+	-moz-border-radius: 5px; */
+ 	
+}
+select >option{color:#000000;}
+.expire_year { width: 198px !important;}
+
+.inputfield {
+  padding-top: 10px;
+  font-weight: 400;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+  font-weight: 300;
+}
+
+input[type="button"]{
+	display: inline;
+	width: 148px;
+	font-size: 14px;
+	/* background-color:#999; 
+	color: #fff;*/
+	padding: 6px 0px;
+	margin: 10px 0px 0px 0px;
+	border-radius: 3px;
+	-moz-border-radius: 5px;
+	border: 1px solid #abc3d7;
+    background-color: #ecf1f4;
+    color: #000; 
+}
+
+input[type="button"]:hover {
+	background-color:#ecf1f4;
+	cursor:pointer;
+}
+
+textarea {
+	display: inline;
+  width: 400px;
+	max-width: 400px;
+	height: 100px;
+  max-height: 300px;
+  font-size: 14px;
+	background-color:#9EcDDF;
+	color:#fff;
+  padding: 5px 0px 5px 10px;
+	margin: 5px 0px 0px 0px;
+	border-radius: 3px;
+	-moz-border-radius: 5px;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+}
+
+.footer {
+	font-size: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+  color:#344F8C;
+	padding: 40px 0;
+}
